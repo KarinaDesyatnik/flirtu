@@ -41,6 +41,19 @@ $('.top-header').removeClass("sticky");
 }
 });
 
+
+$('.menu-btn').click(function(){
+	$(this).toggleClass('active');
+	$('.header__menu').toggleClass('active');
+})
+
+$('.sub-menu-link').click(function(){
+	$('.sub-menu-content').toggleClass('active');
+})
 //-------end sticky header--------
+
+
+
+
 
 });
